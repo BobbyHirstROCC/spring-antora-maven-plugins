@@ -69,7 +69,7 @@ public class AntoraMavenPlugin
 	@Parameter
 	private String playbook = "antora-playbook.yml";
 
-	private final String antoraExecutable = "node_modules/.bin/antora";
+	private final String antoraExecutable = "node_modules/@antora/cli/bin/antora";
 
 	@Parameter
 	private Node node  = new Node();
